@@ -15,4 +15,8 @@ public abstract class Artwork {
 		this.parutionYear = parutionYear;
 	}
 
+	public String getTitle() {
+		return title;
+	}
+
 }

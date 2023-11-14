@@ -13,6 +13,10 @@ class Main {
 		);
 
 		System.out.println(book1);
+
+		var library = new Library("La bibliothèque", "Angers");
+
+		library.addArtwork(book1);
 	}
 
 }
