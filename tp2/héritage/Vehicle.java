@@ -1,6 +1,6 @@
 package tp2.héritage;
 
-public class Vehicle {
+public abstract class Vehicle {
 	private String brand;
 	private String model;
 	private String color;
@@ -30,9 +30,7 @@ public class Vehicle {
 		this.color = color;
 	}
 
-	public void startEngine() {
-		System.out.println("vroom!");
-	}
+	public abstract void startEngine();
 
 	@Override
 	public String toString() {
