@@ -1,7 +1,7 @@
 package tp2.héritage;
 
 public abstract class Vehicle {
-	private String brand;
+	protected String brand;
 	private String model;
 	private String color;
 

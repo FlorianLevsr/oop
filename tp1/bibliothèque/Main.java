@@ -1,5 +1,8 @@
 package tp1.bibliothèque;
 
+import tp3.bibliothèque.Author;
+import tp3.bibliothèque.Book;
+
 class Main {
 
 	public static void main(String[] args) {

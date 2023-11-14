@@ -1,12 +1,13 @@
-package tp1.bibliothèque;
+package tp3.bibliothèque;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Author {
 
 	private String lastname;
 	private String firstname;
-	private ArrayList<Book> authorOf;
+	private List<Book> authorOf;
 
 	public Author (
 		String firstname,
@@ -17,7 +18,7 @@ public class Author {
 		this.authorOf = new ArrayList<Book>();
 	}
 
-	public void linkBookToAuthor (Book book) {
+	public void linkArtworkToAuthor (Book book) {
 		authorOf.add(book);
 	}
 
@@ -26,7 +27,7 @@ public class Author {
 		return "Author [lastname=" + lastname + ", firstname=" + firstname + "]";
 	}
 
-	public ArrayList<Book> getAuthorOf() {
+	public List<Book> getAuthorOf() {
 		return authorOf;
 	}
 
